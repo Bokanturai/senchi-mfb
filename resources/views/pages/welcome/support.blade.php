@@ -100,13 +100,13 @@
                     </h3>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <!-- Call Card -->
-                        <a href="tel:08146640294" class="group flex items-center gap-4 bg-brand-cream/20 border border-brand-dark/5 p-4 rounded-2xl hover:shadow-md hover:border-primary/20 transition-all duration-300">
+                        <a href="tel:08039110933" class="group flex items-center gap-4 bg-brand-cream/20 border border-brand-dark/5 p-4 rounded-2xl hover:shadow-md hover:border-primary/20 transition-all duration-300">
                             <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary-dark flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-all duration-300">
                                 <i data-lucide="phone" class="w-5 h-5"></i>
                             </div>
                             <div>
                                 <span class="text-[10px] font-bold text-brand-dark/40 uppercase tracking-widest block leading-none mb-1">Call Support</span>
-                                <span class="text-sm font-extrabold text-brand-dark group-hover:text-primary-dark transition-colors">0814 664 0294</span>
+                                <span class="text-sm font-extrabold text-brand-dark group-hover:text-primary-dark transition-colors">0803 911 0933</span>
                             </div>
                         </a>
 
@@ -124,6 +124,7 @@
                         </a>
                     </div>
                 </div>
+
             </div>
 
             <!-- Right Side: Contact / Inquiry Form (5 Columns) -->

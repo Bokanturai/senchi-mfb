@@ -69,7 +69,7 @@
                     </li>
                     <li class="flex items-center gap-3">
                         <i data-lucide="phone" class="w-4 h-4 text-primary shrink-0"></i>
-                        <span>+234 814 664 0294 (SENCHI)</span>
+                        <span>+234 803 911 0933</span>
                     </li>
                     <li class="flex items-center gap-3">
                         <i data-lucide="mail" class="w-4 h-4 text-primary shrink-0"></i>
@@ -82,7 +82,10 @@
 
         <!-- Lower Footer Section -->
         <div class="pt-10 flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-white/40 font-medium">
-            <p>© {{ date('Y') }} Senchi Microfinance Bank. All rights reserved.</p>
+            <div class="flex flex-col gap-1">
+                <p>© {{ date('Y') }} Senchi Microfinance Bank. All rights reserved.</p>
+                <p>Design by <a href="https://wa.me/2348064333983?text=Hello%20Bokanturai%2C%20I%20saw%20your%20website%20design%20on%20Senchi%20MFB..." target="_blank" rel="noopener noreferrer" class="text-primary hover:underline transition-all font-semibold">bokanturai</a></p>
+            </div>
             
             <div class="flex items-center gap-6">
                 <a href="#privacy" class="hover:text-primary transition-colors">Privacy Policy</a>
