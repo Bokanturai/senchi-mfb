@@ -177,10 +177,17 @@
                         </div>
                     </div>
 
-                    <div class="space-y-1">
-                        <label for="support_email" class="text-[10px] font-bold text-brand-dark/55 uppercase tracking-wider">Email Address</label>
-                        <input type="email" id="support_email" name="email" required placeholder="john@example.com" value="{{ old('email') }}" class="w-full bg-white border border-brand-dark/10 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-3 text-sm outline-none transition-all">
-                        @error('email') <span class="text-xs text-red-500 font-semibold">{{ $message }}</span> @enderror
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="space-y-1">
+                            <label for="support_email" class="text-[10px] font-bold text-brand-dark/55 uppercase tracking-wider">Email Address</label>
+                            <input type="email" id="support_email" name="email" required placeholder="john@example.com" value="{{ old('email') }}" class="w-full bg-white border border-brand-dark/10 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-3 text-sm outline-none transition-all">
+                            @error('email') <span class="text-xs text-red-500 font-semibold">{{ $message }}</span> @enderror
+                        </div>
+                        <div class="space-y-1">
+                            <label for="support_phone" class="text-[10px] font-bold text-brand-dark/55 uppercase tracking-wider">Phone Number</label>
+                            <input type="tel" id="support_phone" name="phone" required placeholder="+234 80 1234 5678" value="{{ old('phone') }}" class="w-full bg-white border border-brand-dark/10 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-3 text-sm outline-none transition-all">
+                            @error('phone') <span class="text-xs text-red-500 font-semibold">{{ $message }}</span> @enderror
+                        </div>
                     </div>
 
                     <div class="space-y-1">

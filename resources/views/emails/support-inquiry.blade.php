@@ -105,6 +105,12 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td style="padding: 10px 0; font-size: 13px; font-weight: bold; color: #7a826d; border-bottom: 1px solid #F9FAF6;">Phone Number:</td>
+                                    <td style="padding: 10px 0; font-size: 14px; font-weight: bold; color: #12180B; border-bottom: 1px solid #F9FAF6;">
+                                        <a href="tel:{{ $data['phone'] }}" style="color: #819b3d; text-decoration: none;">{{ $data['phone'] }}</a>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td style="padding: 10px 0; font-size: 13px; font-weight: bold; color: #7a826d; border-bottom: 1px solid #F9FAF6;">Topic / Department:</td>
                                     <td style="padding: 10px 0; font-size: 14px; font-weight: bold; color: #A6C455; border-bottom: 1px solid #F9FAF6;">{{ $data['topic_name'] }}</td>
                                 </tr>
@@ -120,7 +126,7 @@
                                 <tr>
                                     <td width="30" valign="top" style="font-size: 14px; font-weight: bold; color: #A6C455; padding-bottom: 10px;">•</td>
                                     <td style="font-size: 13px; line-height: 18px; color: #4b523f; padding-bottom: 10px;">
-                                        Please reply to the customer's email (<strong>{{ $data['email'] }}</strong>) within the 15-minute business hour SLA.
+                                        Please reply to the customer's email (<strong>{{ $data['email'] }}</strong>) or call them directly at <strong><a href="tel:{{ $data['phone'] }}" style="color: #819b3d; text-decoration: none;">{{ $data['phone'] }}</a></strong> within the 15-minute business hour SLA.
                                     </td>
                                 </tr>
                                 <tr>

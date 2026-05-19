@@ -22,6 +22,7 @@ class SupportController extends Controller
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
             'topic' => 'required|string|in:savings,loan,agent,complaints',
             'message' => 'required|string',
         ]);

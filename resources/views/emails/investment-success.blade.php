@@ -111,7 +111,9 @@
                                 </tr>
                                 <tr>
                                     <td style="padding: 10px 0; font-size: 13px; font-weight: bold; color: #7a826d; border-bottom: 1px solid #F9FAF6;">Phone Number:</td>
-                                    <td style="padding: 10px 0; font-size: 14px; font-weight: bold; color: #12180B; border-bottom: 1px solid #F9FAF6;">{{ $data['phone'] }}</td>
+                                    <td style="padding: 10px 0; font-size: 14px; font-weight: bold; color: #12180B; border-bottom: 1px solid #F9FAF6;">
+                                        <a href="tel:{{ $data['phone'] }}" style="color: #819b3d; text-decoration: none;">{{ $data['phone'] }}</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td style="padding: 10px 0; font-size: 13px; font-weight: bold; color: #7a826d; border-bottom: 1px solid #F9FAF6;">Investment Tier:</td>
