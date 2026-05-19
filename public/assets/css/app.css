@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../../resources/views/**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --color-primary: #A6C455;
+    --color-primary-hover: #93b04c;
+    --color-primary-light: #b9d76c;
+    --color-primary-dark: #819b3d;
+    --color-brand-dark: #12180B;
+    --color-brand-slate: #1e2515;
+    --color-brand-cream: #F9FAF6;
+    
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Custom premium visual styles */
+@layer utilities {
+    .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        box-shadow: 0 20px 40px -15px rgba(18, 24, 11, 0.05);
+    }
+    
+    .text-glow {
+        text-shadow: 0 0 20px rgba(166, 196, 85, 0.35);
+    }
+
+    .pulse-glow {
+        animation: pulse-glow-keyframes 3s infinite alternate ease-in-out;
+    }
+
+    .phone-shadow {
+        box-shadow: 0px 30px 60px -15px rgba(18, 24, 11, 0.25),
+                    0px 0px 0px 1px rgba(18, 24, 11, 0.08);
+    }
+}
+
+@keyframes pulse-glow-keyframes {
+    0% {
+        box-shadow: 0 0 15px 0px rgba(166, 196, 85, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 30px 8px rgba(166, 196, 85, 0.4);
+    }
+}
+
